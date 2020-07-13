@@ -74,12 +74,13 @@ html {
   margin-bottom: 0px;
   display: flex;
 }
+
 .site-nav > .nav-box:not(:last-child) {
   margin-right: 50px;
 }
 
 .site-nav a {
-    color: #212121;
+  color: #212121;
 }
 .site-nav .link {
   display: block;
@@ -95,7 +96,7 @@ html {
   color: var(--accent-color);
 }
 .site-nav .link.current {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 .nav-link {
   position: relative;
@@ -137,7 +138,7 @@ html {
   margin-right: 30px;
 }
 
-.icon-mail{
+.icon-mail {
   display: inline-block;
   margin-right: 10px;
   width: 16px;
@@ -338,7 +339,7 @@ html {
   height: auto;
 }
 .title.team {
-  text-align: center
+  text-align: center;
 }
 .team-list .title {
   padding: 0px;
@@ -450,7 +451,10 @@ html {
 
 .footer-section {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
+
 .footer-section > .container {
   display: flex;
 }
@@ -472,25 +476,9 @@ html {
   height: 86px;
 }
 
-.copyright {
-  display: flex;
-  box-sizing: border-box;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 12px;
-  line-height: 2;
-  text-align: center;
-  letter-spacing: 0.03em;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 18px;
-  padding-bottom: 21px;
-  }
-
 .logo-footer {
   display: block;
-  margin-top: 45px;
+  margin: 0px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 22px;
@@ -506,8 +494,8 @@ html {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    margin-top: 8px;
-    margin-bottom: 28px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     padding: 0px;
     font-style: normal;
   }
@@ -670,9 +658,7 @@ html {
     padding: 0px;
     margin: 0px;
   }
-  .projects-link {
-  
-  }
+
   .projects-item {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
