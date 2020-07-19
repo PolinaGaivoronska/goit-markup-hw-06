@@ -12,14 +12,33 @@
   </head>
   <body>
     <!--Форма-->
-    <form class="js-speaker-form">
-      <label for="user-name">Имя</label>
-      <input type="text" name="user-name" id="user-name"/>
+    <form class=" form js-speaker-form">
+      <h1 class="form-title">Оставьте свои данные, мы вам перезвоним</h1>
+    <div class="form-field">
+      <label for="user-name" class="form-label">Имя</label>
+      <input class="form-input" type="text" name="user-name" id="user-name"/>
+    </div>
+    
+    <div class="form-field">
       <label for="tel">Телефон</label>
       <input type="tel" name="tel" id="tel"/>
+    </div>
+    
+    <div class="form-field">
       <label for="mail">Почта</label>
       <input type="email" name="mail" id="mail"/>
-      
+    </div>
+    
+    <div class="form-field">
+      <label for="comment">Комментарий</label>
+      <textarea name="comment" id="comment" rows="10" placeholder="Комментарий"></textarea>
+    </div>
+     
+    <div class="form-field">
+      <input type="checkbox" name="policy" id="policy"/>
+      <label for="policy">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+    </div>
+
       <button type="submit">Отправить</button>
 
     </form>
@@ -406,8 +425,8 @@
         </div>
         <div class="item-colum subscription">
           <p class="footer-title">Подпишитесь на рассылку</p>
-          <form>
-            <input class="email" type="email" />
+          <form class="footer-form">
+            <input class="email" type="email" placeholder="E-mail" />
             <button class="button footer">Подписаться
               <svg class="button-icon">
                 <use href="./images/sprite.svg#icon-icon-send"></use>
