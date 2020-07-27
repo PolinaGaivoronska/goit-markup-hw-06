@@ -886,6 +886,11 @@ html {
     color: var(--accent-color);
     text-decoration: underline;
   }
+  .open-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .close-button {
     position: absolute;
